@@ -1,7 +1,7 @@
 {
   "name": "typescript-for-javascript-developers",
   "version": "1.0.0",
-  "description": "",
+  "description": "## コンパイルを実行するコマンド例",
   "main": "index.js",
   "scripts": {
     "dev": "ts-node-dev --respawn",
