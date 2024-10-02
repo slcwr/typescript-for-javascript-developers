@@ -11,7 +11,8 @@ class Me {
   }
 }
 
-// let me = new Me();
+//let me = new Me();
 // console.log(me.isProgrammer);
+//newしなくてもclass名でメンバもメソッドも呼べる
 console.log(Me.isProgrammer);
 console.log(Me.work());

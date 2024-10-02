@@ -1,7 +1,7 @@
 export {};
 
 let absence: null = null;
-// absence = 'hello';
+//absence = 'hello';
 
 let data: undefined = undefined;
-// data = 123;
+//data = 123;

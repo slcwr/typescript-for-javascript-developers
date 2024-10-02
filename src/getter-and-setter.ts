@@ -11,6 +11,7 @@ export {};
 //   * 途中で変更できる。
 //   * 参照できない。
 
+//メンバ変数とメソッド名は重複できない。
 class MyNumberCard {
   private _owner: string;
   private _secretNumber: number;
@@ -19,11 +20,12 @@ class MyNumberCard {
     this._owner = owner;
     this._secretNumber = secretNumber;
   }
-
+  
+  //getterは参照するメソッド
   get owner() {
     return this._owner;
   }
-
+  //setterは値を設定するときのメソッド
   set secretNumber(secretNumber: number) {
     this._secretNumber = secretNumber;
   }
@@ -34,6 +36,7 @@ class MyNumberCard {
 }
 
 let card = new MyNumberCard('はむさん', 1234567890);
+//card.owner = 'Ham';
 console.log(card.debugPrint());
 card.secretNumber = 1111111111;
 console.log(card.debugPrint());

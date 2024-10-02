@@ -3,7 +3,7 @@ export {};
 class Person {
   name: string;
   age: number;
-
+  //コンストラクタに型を指定するとエラーになる。（言語仕様）
   constructor(name: string, age: number) {
     this.name = name;
     this.age = age;

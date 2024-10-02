@@ -3,6 +3,8 @@ export {};
 class Mahotsukai {}
 class Souryo {}
 
+//クラスの多重継承はできない。
+//インターフェースの複数継承はできる。
 class Taro extends Mahotsukai {}
 
 interface Kenja {

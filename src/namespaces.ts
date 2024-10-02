@@ -1,5 +1,5 @@
 export {};
-
+//フォルダを作るような感覚で名前をつけて同じクラス名で種類をつくる
 namespace Japanese {
   export namespace Tokyo {
     export class Person {
